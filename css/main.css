@@ -1,0 +1,405 @@
+/*
+ * main.css
+ * Main stylesheet
+ *
+ * NOTES:
+ * Find and replace to change colours:
+ * Zocket background/Footer border: #404664
+ * Navbar border/Footer background: #DA7B08
+ */
+
+html
+{
+    width: 100%;
+    height: 100%;
+}
+
+body
+{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF;
+    color: #000000;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-size: 11pt;
+}
+
+div.nav
+{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 40px;
+    background-color: #404664;
+    color: #FFFFFF;
+    text-align: center;
+    z-index: 1;
+}
+
+div.navOnScroll
+{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 40px;
+    background-color: #404664;
+    color: #FFFFFF;
+    border-top-width: 0px;
+    border-bottom-width: 4px;
+    border-bottom-style: solid;
+    border-bottom-color: #DA7B08;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    text-align: center;
+    z-index: 1;
+}
+
+span#navBar
+{
+    display: block;
+    position: relative;
+    top: 0px;
+    padding-top: 11px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 12pt;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    height: 29px;
+}
+
+span#navBar a
+{
+    text-decoration: none;
+    color: #FFFFFF;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+div#banner
+{
+    width: 100%;
+    height: 100%;
+    min-height: 600px;
+    background-color: #404664;
+    color: #FFFFFF;
+    border-top-width: 0px;
+    border-bottom-width: 4px;
+    border-bottom-style: solid;
+    border-bottom-color: #DA7B08;
+    border-left-width: 0px;
+    border-right-width: 0px;
+}
+
+div#products
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-height: 600px;
+    border-top-width: 0px;
+    border-bottom-width: 1px;
+    border-bottom-style: dotted;
+    border-bottom-color: #DA7B08;
+    border-left-width: 0px;
+    border-right-width: 0px;
+}
+
+div#products div#dbInfo
+{
+    position: relative;
+    top: 40px;
+    padding-top: 40px;
+    float: right;
+    width: 50%;
+    text-align: center;
+}
+
+div#products p
+{
+    width: 80%;
+}
+
+span#dbTitle
+{
+    display: block;
+    position: relative;
+    top: 0px;
+    font-family: "Play", sans-serif;
+    font-weight: 700;
+    font-size: 18pt;
+    color: #333E5B;
+}
+
+span#dbSubtitle
+{
+    display: block;
+    position: relative;
+    top: -4px;
+    font-family: "Orbitron", sans-serif;
+    font-weight: 400;
+    font-size: 19pt;
+    color: #C43939;
+}
+
+div#products img#appstore
+{
+    position: relative;
+    top: 20px;
+}
+
+div#products div#dbiosScreenshotContainer
+{
+    position: relative;
+    top: 40px;
+    padding-top: 40px;
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+div#products img#dbiosScreenshot
+{
+    height: 450px;
+}
+
+img#dbLogo
+{
+    height: 40px;
+}
+
+div#products span#legal
+{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 20px;
+    font-family: "Economica", sans-serif;
+    font-weight: 400;
+    font-size: 10pt;
+    text-align: center;
+}
+
+div#contact
+{
+    width: 100%;
+    height: 100%;
+    min-height: 600px;
+    text-align: center;
+}
+
+div#contact p#coName
+{
+    position: relative;
+    top: 100px;
+    font-family: "Roboto Slab", serif;
+    font-weight: 700;
+    font-size: 16pt;
+}
+
+div#contact p#coAddress
+{
+    position: relative;
+    top: 80px;
+}
+
+div#contact p#coEmail
+{
+    position: relative;
+    top: -10px;
+}
+
+div#contact a
+{
+    position: relative;
+    top: 100px;
+    text-decoration: none;
+    color: #DA7B08;
+}
+
+div#contact a.iconFont
+{
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+@font-face {
+    font-family: 'socicon';
+    src: url('font/socicon-webfont.eot');
+    src: url('font/socicon-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/socicon-webfont.woff') format('woff'),
+         url('font/socicon-webfont.ttf') format('truetype'),
+         url('font/socicon-webfont.svg#sociconregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+div#contact span.socicon {
+    font-family: 'socicon' !important;
+    font-size: 20pt;
+}
+
+div#footer
+{
+    position: relative;
+    top: -46px;
+    padding-top: 16px;
+    width: 100%;
+    height: 30px;
+    background-color: #DA7B08;
+    color: #FFFFFF;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 7pt;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    border-top-width: 4px;
+    border-top-style: solid;
+    border-top-color: #404664;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+}
+
+div#privacyPolicy
+{
+    position: relative;
+    top: -164px;
+    width: 100%;
+    height: 100px;
+    background-color: #DA7B08;
+    color: #FFFFFF;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 7pt;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    border-top-width: 4px;
+    border-top-style: solid;
+    border-top-color: #404664;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    display: none;
+}
+
+div#privacyPolicy p
+{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+a.linkFooter
+{
+    background-color: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+
+a.linkFooter2
+{
+    background-color: inherit;
+    color: #404664;
+    text-decoration: none;
+}
+
+h1#title
+{
+    position: relative;
+    top: 140px;
+    margin: 0px;    /* to remove the gap at the top */
+    font-family: "Share Tech", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 124pt;
+    text-align: center;
+}
+
+span#titleTight
+{
+    letter-spacing: -8px;
+}
+
+h2
+{
+    position: relative;
+    top: 60px;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    font-size: 20pt;
+    text-transform: uppercase;
+}
+
+div#logoContainer
+{
+    position: relative;
+    top: 190px;
+    width: 100%;
+    text-align: center;
+}
+
+img#logo
+{
+    height: 174px;
+    width: 174px;
+}
+
+p.justified
+{
+    text-align: justify;
+}
+
+a
+{
+    background-color: inherit;
+    color: #404664;
+    text-decoration: none;
+}
+
+a.tinyLink
+{
+    font-family: "Economica", sans-serif;
+    font-weight: 400;
+    font-size: 10pt;
+}
+
+div#dbPrivacy
+{
+    position: absolute;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #FFFFFF;
+    color: #000000;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-size: 11pt;
+    text-align: center;
+}
+
+div#dbPrivacy h1
+{
+    font-size: 12pt;
+}
+
+div#dbPrivacy a
+{
+    color: #DA7B08;
+}
+
+div#dbPrivacy p#companyName
+{
+    font-family: "Roboto Slab", serif;
+    font-weight: 700;
+    font-size: 11pt;
+}
+
