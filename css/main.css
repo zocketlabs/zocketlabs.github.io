@@ -150,6 +150,17 @@ span#dbSubtitle
     color: #C43939;
 }
 
+span#pnodTitle
+{
+    display: block;
+    position: relative;
+    top: 0px;
+    font-family: "Amatic SC", cursive;
+    font-weight: 700;
+    font-size: 24pt;
+    color: #FF2A2A;
+}
+
 div#products img#appstore
 {
     position: relative;
